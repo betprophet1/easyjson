@@ -249,7 +249,7 @@ func (w *Writer) Float32Str(n float32) {
 
 func (w *Writer) Float64(n float64) {
 	w.Buffer.EnsureSpace(20)
-	w.Buffer.Buf = strconv.AppendFloat(w.Buffer.Buf, n, 'g', -1, 64)
+	w.Buffer.Buf = strconv.AppendFloat(w.Buffer.Buf, n, 'f', -1, 64)
 }
 
 func (w *Writer) Float64Str(n float64) {
