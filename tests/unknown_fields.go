@@ -1,6 +1,6 @@
 package tests
 
-import "github.com/mailru/easyjson"
+import "github.com/betprophet1/easyjson"
 
 //easyjson:json
 type StructWithUnknownsProxy struct {
